@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registrasi TUIG - Bandung Techno Park</title>
+        <style>
+            h2{color: #ED3338;font-family: "Roboto", sans-serif;font-weight: bold;text-align: center;font-size: 30px;}
+            h2 span{text-decoration:line-through;}
+            textarea{margin-left: 20px;}
+            .Judul{background-image:url("https://btp.or.id/wp-content/uploads/2022/07/background-25.jpg");background-size: cover;font-family: "Roboto", sans-serif;text-align: center;display: flex;justify-content: center;align-items: center;height: 300px;width: 100%;color: white;font-size: 23px;line-height: 1.1;}
+            .tabel1{padding: 50px;font-family: "Roboto", sans-serif;font-weight: lighter; background-color: white;border-radius: 8px;}
+            .tabel2{padding: 50px;font-family: "Roboto", sans-serif;font-weight: lighter;background-color: white;border-radius: 8px;}
+            .luartabel1{ background-color: #ED3338;padding: 3px;margin: 10px;border-radius: 8px;}
+            .luartabel2{ background-color: #ED3338;padding: 3px;margin: 10px;border-radius: 8px;}
+            .submit button{width: 300px;height: 70px;background-color: #ED3338;color: whitesmoke;font-family: "Roboto", sans-serif;border-radius: 15px;font-size: 25px;border: 0;}
+            .bawah{background-color: #333333;height: 400px;}
+       
+       </style>
+    </head>
+    <body bgcolor="#f4f4fb">
+        <div  class="Judul" ><h1>Registrasi TUIG - Bandung Techno Park</h1>
+        </div>
+        <form action="contoh.html" method="post">
+            <br>
+                <h2><span>------</span>DATA PRODUK<span>------</span></h2>
+            
+            <div class="luartabel1">
+            <div class="tabel1">
+            <table border="0" >
+                <tr>
+                    <td><label for="JudulProduk">Judul Produk Inovasi :</label></td>
+                    <td colspan="2"><input type="text" name="JudulProduk"></td>
+			
+        </tr>
+            
+            <tr> <td colspan="3"><label for="Deskripsi">Deskripsi Produk :</label></td>
+                </tr>
+           
+            <tr><td colspan="3"><textarea name="Deskripsi" id="" cols="30" rows="10"></textarea></td></tr>
+            <tr><td> <label for="TahunRilis">Tahun Rilis :</label></td><td colspan="2"><input type="int" name="TahunRilis"></td></tr>
+           
+			
+            <tr><td> <label for="StatusKI">StatusKI :</label></td><td><input type="radio" id="Paten" name="StatusKI"><label for="Paten">Paten</label></td><td>	<input type="radio" id="BlmPaten" name="StatusKI"><label for="BlmPaten">Belum Paten</label></td></tr>
+           
+		
+            <tr><td>    <label for="TRL">Tingkat TRL :</label></td><td colspan="2"> <select name="TRL" id="">
+                <option value="">satu</option>
+                
+                <option value="">dua</option>
+            </select></td></tr>
+        
+           
+            <tr><td>
+            <label for="SDG">Kategori SDG :</label></td><td colspan="2"> <select name="SDG" id="">
+                <option value="">satu</option>
+                
+                <option value="">dua</option>
+            </select></td></tr>
+           
+            <tr><td colspan="3"> <label for="LatarBelakang">Latar Belakang :</label></td></tr>
+            <tr><td colspan="3"> <textarea name="LatarBelakang" id="" cols="30" rows="10"></textarea></td></tr>
+          
+        </table>
+    </div>
+</div>
+<br><br><br>
+    
+        <h2><span>------</span>DATA PENGELOLA<span>------</span></h2>
+    
+    <div class="luartabel2">
+    <div class="tabel2">
+            
+            <table border="0">
+                <tr>
+                    <td><label for="Fakultas">Fakultas :</label></td>
+                    <td><input type="text" name="Fakultas"></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="ResearchLeader">Innovator/Research Leader :</label></td>
+                    <td><input type="text" name="ResearchLeader"></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="TeamResearcher">Team Researcher :</label></td>
+                    <td><input type="text" name="TeamResearcher"></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="NamaHibah">jenis / Nama Hibah :</label></td>
+                    <td><input type="text" name="NamaHibah"></td>
+                    
+                </tr><tr>
+                    <td><label for="KolaborasiLainnya">Kolaborasi lainnya :</label></td>
+                    <td><input type="text" name="KolaborasiLainnya"></td>
+                    
+                </tr><tr>
+                    <td><label for="Komersialisasi">Komersialisasi Produk :</label></td>
+                    <td><input type="text" name="Komersialisasi"></td>
+                    
+                </tr><tr>
+                    <td><label for="Kontak">Kontak :</label></td>
+                    <td><input type="text" name="Kontak"></td>
+                    
+                </tr>
+                <tr>
+                    <td><label>Tanggal</label></td>
+                    <td><input type="date" name="tanggal"></td>
+                            
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+        <br><br><br>
+        <div class="submit" align = "center"><button type="submit">SUBMIT</button></div>
+            
+        </form>
+        <br><br><br><br><br><br><br><br>
+
+        <Div class="bawah">
+        </Div>
+    </body>
+</html>
